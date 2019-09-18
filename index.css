@@ -1,0 +1,224 @@
+html{
+    background-image: url("https://res.cloudinary.com/dv26expzw/image/upload/v1568662747/architecture-buildings-city-1058683_x5jo8h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: right;
+    flex-direction: row-reverse;
+    justify-content: right;
+    width: 30%;
+    height: 100%;
+    margin-bottom: 0 auto;
+    margin-top: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255, 0.5);
+    float: right;
+    border-radius: 5px;
+    
+}
+
+.fadeIn.first{
+    float: center;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(50px, 50px);
+}
+
+#formContent{
+    height: 100%;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+#password{
+    text-decoration: none;
+}
+
+input[type=submit], input[type=button]{
+    text-decoration: #fff;
+    color: #fff;
+    background-color: rgb(5, 163, 132);
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    width: 18em;  
+    height: 2em;
+    font-weight: bolder;
+    font-size: 1;
+    box-shadow: rgb(5, 163, 132);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 5px;
+    width: 15em;
+    height: 2em;
+    box-shadow: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type=text]:placeholder {
+    color: gray;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid rgb(5, 163, 132);
+  }
+
+input[type=button]:hover, input[type=submit]:hover{
+    background-color: #277e5a;
+    transition: all 1s ease-in-out;
+  }
+
+  input[type=button]:active, input[type=submit]:active{
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  .fadeInDown{
+      -webkit-animation-name: fadeInDown;
+      animation-name: fadeInDown;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+     -webkit-animation-fill-mode: both;
+     animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeInDown{
+      0%{
+          opacity: 1;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+      }
+      100% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+      }
+  }
+
+  @keyframes fadeInDown {
+      0% {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+      }
+
+      100%{
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+      }
+  }
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    text-decoration: none;
+  }
+
+  .fadeIn.fifth {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  
+  .fadeIn.sixth {
+      -webkit-animation-delay: 1.4s;
+      -moz-animation-delay: 1.4s;
+      animation-delay: 1.4s;
+    }
+    
+    .fadeIn.seventh {
+      -webkit-animation-delay: 1.6s;
+      -moz-animation-delay: 1.6s;
+      animation-delay: 1.6s;
+    }
+
+    .fadeIn.fourth:after {
+        display: block;
+        left: 0;
+        bottom: -10px;
+        width: 0;
+        height: 2px;
+        background-color: rgb(5, 163, 132);
+        content: "";
+        transition: width 0.2s;
+      }
+      
+      .fadeIn.fourth:hover {
+        color: gray;
+      }
+      
+      .fadeIn.fourth:hover:after{
+        width: 100%;
+      }
+      
+      *:focus {
+          outline: none;
+      } 
