@@ -1,5 +1,9 @@
 # TeamAuspicious
 
+Team Hosted Url: http://teamauspicious.acushlakoncept.com/
+
+Team Lucid Blog: https://lucid.blog/acushla/post/basic-login-page-with-basic-php-authentication-101
+
 #Front End | Back End | Design - Task 1
 
 #● Create a team of 10

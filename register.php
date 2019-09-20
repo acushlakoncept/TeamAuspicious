@@ -129,7 +129,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <meta property="og:description"
     content="Web developers with successful track records of web team from HNG web track comprising of UI/UX Designers, FrontEnd and BackEnd Developers">
   <meta property="og:image"
-    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568902589/team_auspicious_lqphoy.png">
+    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568972180/team_auspicious_cfs0ld.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -139,7 +139,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <meta property="twitter:description"
     content="Web developers with successful track records of web team from HNG web track comprising of UI/UX Designers, FrontEnd and BackEnd Developers.">
   <meta property="twitter:image"
-    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568902589/team_auspicious_lqphoy.png">
+    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568972180/team_auspicious_cfs0ld.jpg">
 
         
         <!-- Add icon library -->
