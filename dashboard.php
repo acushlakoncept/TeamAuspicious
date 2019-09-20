@@ -42,7 +42,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <meta property="og:description"
     content="Web developers with successful track records of web team from HNG web track comprising of UI/UX Designers, FrontEnd and BackEnd Developers">
   <meta property="og:image"
-    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568902589/team_auspicious_lqphoy.png">
+    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568972180/team_auspicious_cfs0ld.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -52,7 +52,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <meta property="twitter:description"
     content="Web developers with successful track records of web team from HNG web track comprising of UI/UX Designers, FrontEnd and BackEnd Developers.">
   <meta property="twitter:image"
-    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568902589/team_auspicious_lqphoy.png">
+    content="https://res.cloudinary.com/acushlakoncepts/image/upload/v1568972180/team_auspicious_cfs0ld.jpg">
         
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
